@@ -1,0 +1,128 @@
+<html> 
+  <head>
+    <title>Parkers Prints</title>
+    <link href="first_site.css" type="text/css" rel="stylesheet">
+  </head>
+
+  <header>
+    <h1 class="title">Parker's Prints</h1>
+    <img class="logo" src="https://prknel.carrd.co/assets/images/image19.png?v=6025a359">
+    <nav>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+  </header>
+
+  <body> 
+    <h2 class="about">About me and my site</h2>
+
+    <p>Hi, my name is Parker and I enjoy graphic design and art. With these passions, I have decided to open a storefront to share my work with others. Below, you will find price points and the artwork I have available, as well as contact information to place an order! Below, you will find pricing details and a gallery of available prints.</p>
+    
+    <p class="separater">---</p>
+
+    <h2>Pricing Guide</h2>
+
+    <p class="separater">---</p>
+
+    <p>5 x 7 Print ~ $12</p>
+
+    <p class="separater">---</p>
+
+    <p>8 x 10 Print ~ $20</p>
+
+    <p class="separater">---</p>
+
+    <p>I am open to doing other sizes and commissions, see Contact for ways to request!</p>
+
+    <h2 class="available-prints">Available Prints</h2>
+
+    <p>Select a thumbnail to view prints</p>
+
+    <div class="gallery" onclick="openLightbox(event)">
+        <img src="website gallery/image01.jpg"
+            alt="Image 1">
+        <img src="website gallery/image02.jpg"
+            alt="Image 2">
+        <img src="website gallery/image03.jpg"
+            alt="Image 3">
+        <img src="website gallery/image04.jpg"
+            alt="Image 4">
+        <img src="website gallery/image05.jpg"
+            alt="Image 5">
+        <img src="website gallery/image06.jpg"
+            alt="Image 6">
+        <img src="website gallery/image07.jpg"
+            alt="Image 7">
+        <img src="website gallery/image08.jpg"
+            alt="Image 8">
+        <img src="website gallery/image09.jpg"
+            alt="Image 9">
+        <img src="website gallery/image10.jpg"
+            alt="Image 10">
+        <img src="website gallery/image11.jpg"
+            alt="Image 11">
+        <img src="website gallery/image12.jpg"
+            alt="Image 12">
+       <img src="website gallery/image13.jpg"
+            alt="Image 13">
+        <img src="website gallery/image14.jpg"
+            alt="Image 14">
+        <img src="website gallery/image15.jpg"
+            alt="Image 15">
+        <img src="website gallery/image16.jpg"
+            alt="Image 16">
+        <img src="website gallery/image17.jpg"
+            alt="Image 17">
+        <img src="website gallery/image18.jpg"
+            alt="Image 18">
+    </div>
+
+    <!-- Lightbox container -->
+    <div id="lightbox">
+        <!-- Close button -->
+        <span id="close-btn" onclick="closeLightbox()">&times;</span>
+
+        <!-- Main lightbox image -->
+        <img id="lightbox-img" src="" alt="lightbox image">
+
+        <!-- Thumbnails container -->
+        <div id="thumbnail-container">
+            <!-- Thumbnails will be added dynamically using JavaScript -->
+        </div>
+
+        <!-- Previous and Next buttons -->
+        <button id="prev-btn" onclick="changeImage(-1)">&lt; Prev</button>
+        <button id="next-btn" onclick="changeImage(1)">Next &gt;</button>
+    </div>
+  <script src="script.js"></script>
+  </body>
+  <footer class="footer">
+    <h2 class="contact">Contact Information</h2>
+    <p class="contact-info">Email: pnel895@gmail.com</p>
+    <p class="contact-info">Phone (text): (319) 389-3798</p>
+    <p class="credits">Website created by Parker Delfs, owned by Parker Nelson</p> 
+  </footer>
+
+  <!---unused gallery code
+  <img src="https://prknel.carrd.co/assets/images/image05.jpg?v=6025a359">
+    <img src="https://prknel.carrd.co/assets/images/image07.jpg?v=6025a359"> 
+    <img src="https://prknel.carrd.co/assets/images/image06.jpg?v=6025a359"> 
+    <img src="https://prknel.carrd.co/assets/images/image08.jpg?v=6025a359"> 
+    <img src="https://prknel.carrd.co/assets/images/image09.jpg?v=6025a359"> 
+    <img src="https://prknel.carrd.co/assets/images/image10.jpg?v=6025a359"> 
+    <img src="https://prknel.carrd.co/assets/images/image11.jpg?v=6025a359"> 
+    <img src="https://prknel.carrd.co/assets/images/image12.jpg?v=6025a359"> 
+    <img src="https://prknel.carrd.co/assets/images/image13.jpg?v=6025a359"> 
+    <img src="https://prknel.carrd.co/assets/images/image14.jpg?v=6025a359"> 
+    <img src="https://prknel.carrd.co/assets/images/image02.jpg?v=6025a359"> 
+    <img src="https://prknel.carrd.co/assets/images/image03.jpg?v=6025a359"> 
+    <img src="https://prknel.carrd.co/assets/images/image01.jpg?v=6025a359"> 
+    <img src="https://prknel.carrd.co/assets/images/image04.jpg?v=6025a359"> 
+    <img src="https://prknel.carrd.co/assets/images/image16.jpg?v=6025a359"> 
+    <img src="https://prknel.carrd.co/assets/images/image15.jpg?v=6025a359"> 
+    <img src="https://prknel.carrd.co/assets/images/image17.jpg?v=6025a359"> 
+    <img src="https://prknel.carrd.co/assets/images/image18.jpg?v=6025a359"> -->
+</html>
